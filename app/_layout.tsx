@@ -12,7 +12,7 @@ export default function Layout() {
         options={{
           title: "Shopping List",
           tabBarIcon: ({ color, size }) => {
-            return <Feather name="list" color={color} size={size}></Feather>;
+            return <Feather name="list" color={color} size={size} />;
           },
         }}
       />
@@ -20,14 +20,9 @@ export default function Layout() {
         name="counter"
         options={{
           title: "Counter",
+          headerShown: false,
           tabBarIcon: ({ color, size }) => {
-            return (
-              <AntDesign
-                name="clockcircleo"
-                color={color}
-                size={size}
-              ></AntDesign>
-            );
+            return <AntDesign name="clockcircleo" color={color} size={size} />;
           },
         }}
       />
@@ -36,13 +31,7 @@ export default function Layout() {
         options={{
           title: "My Idea",
           tabBarIcon: ({ color, size }) => {
-            return (
-              <FontAwesome5
-                name="lightbulb"
-                color={color}
-                size={size}
-              ></FontAwesome5>
-            );
+            return <FontAwesome5 name="lightbulb" color={color} size={size} />;
           },
         }}
       />
