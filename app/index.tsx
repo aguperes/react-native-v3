@@ -1,6 +1,6 @@
 import { StyleSheet, View } from "react-native";
-import { ShoppingListItems } from "./components/ShoppingListItems";
-import { theme } from "./theme";
+import { ShoppingListItems } from "../components/ShoppingListItems";
+import { theme } from "../theme";
 
 export default function App() {
   return (
